@@ -12,10 +12,7 @@ const Header = () => {
                 <Link to="/orders">Orders</Link>
                 <Link to="/inventory">Inventory</Link>
                 <Link to="/about">About</Link>
-                {/* <a href="/shop">Shop</a>
-                <a href="/orders">Orders</a>
-                <a href="/inventory">Inventory</a>
-                <a href="/about">About</a> */}
+                <Link to="/login">Login</Link>
             </div>
         </nav>
     );
