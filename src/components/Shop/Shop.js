@@ -12,7 +12,7 @@ const Shop = () => {
     const [cart, setCart] = useState([]);
 
 
-    useEffect(() => {
+    /*useEffect(() => {
         //console.log('call for storedCart')
         const storedCart = getStoredCart();
         const saveCart = [];
@@ -28,7 +28,7 @@ const Shop = () => {
         }
         setCart(saveCart);
         //console.log('end storedCart')
-    }, [products])
+    }, [products])*/
 
     const handleAddToCart = (selectedProduct) => {
         //console.log(selectedProduct);
