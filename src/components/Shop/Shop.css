@@ -1,14 +1,34 @@
-.shop-container{
+.shop-container {
     display: grid;
     grid-template-columns: 4fr 1fr;
 }
-.products-container{
+
+.products-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 54px;
     margin: 100px;
 }
 
-.cart-container{
+.cart-container {
     background-color: rgba(255, 153, 0, 0.3);
+}
+
+.pagination {
+    padding-bottom: 50px;
+    margin: 0 auto;
+}
+
+.pagination .selected {
+    background-color: orange;
+    color: white;
+}
+
+.pagination button {
+    font-weight: 600;
+    font-size: 18px;
+    padding: 10px 15px;
+    margin-right: 10px;
+    background-color: white;
+    border: 1px solid orange;
 }
